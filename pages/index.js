@@ -592,9 +592,6 @@ const Index = () => {
           <input className="bg-gray-800 px-3 py-3 rounded-sm text-white cursor-pointer" type="submit" value="GO"></input>
         </form>
       </div>
-<h1>hello</h1>
-<h2>hi</h2>
-<h1>jjj</h1>
     </div>
   </div>    
 </div>
