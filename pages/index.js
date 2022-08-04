@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import page1 from "./Index";
-import Image from 'next/image'
+import Image from "next/image";
 const Index = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [isList, setIsList] = useState(false);
