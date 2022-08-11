@@ -522,7 +522,7 @@ const Index = () => {
       <div className=" py-20 px-20 items-center">
       <h1 className="text-4xl text-gray-900 py-10 w-3/5 font-semibold">Top Selling Items</h1>
       <div className="flex pb-20 justify-between items-center pr-20 lg:flex-row md-flex-col sm:flex-col flex-col sm:px-1 md:px-1 px-1">
-      <Image src="/Rectangle 14 (1).png" width={624} height={400}/>
+      <Image src="/Rectangle 13.png" width={624} height={400}/>
           <div className="flex-col ">
           <h1 className="text-4xl text-gray-900 py-1 w-5/6 font-semibold">Lorem ipsum dolor sit amet</h1>
           <h1 className="text-base text-gray-900 py-1 pb-3 w-4/6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1> 
@@ -536,7 +536,7 @@ const Index = () => {
           <h1 className="text-base text-gray-900 py-1 pb-3 w-4/6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1> 
           <button className="font-['Poppins'] bg-gray-900 text-white text-xl rounded-md bold py-4 px-5 w-40">Explore</button>
       </div>
-      <Image src="/Rectangle 13 (1).png" width={624} height={400}/>
+      <Image src="/Rectangle 14.png" width={624} height={400}/>
       </div>
       </div>
 
