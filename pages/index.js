@@ -30,7 +30,7 @@ const Index = () => {
                 <div className="flex items-center ">
                   <a  onClick={() => setIsList4(!isList4)} className="font-bold text-base leading-4 font-['Poppins'] pr-2 text-gray-700 ">Bedroom</a>
                   <div  onClick={() => setIsList4(!isList4)} className="pb-1 my-auto">
-                  <Image src="/vector (2).svg" width={8} height={4}/>
+                  <Image src="/Vector (2).svg" width={8} height={4}/>
                   </div>
                 </div>
                 <ul
@@ -50,7 +50,7 @@ const Index = () => {
                 <div className="flex items-center ">
                   <a  onClick={() => setIsList(!isList)} className="font-bold text-base leading-4 font-['Poppins'] pr-2 text-gray-700">Living Room</a>
                   <div onClick={() => setIsList(!isList)} className="pb-1 my-auto">
-                  <Image src="/vector (2).svg" width={8} height={4}/>
+                  <Image src="/Vector (2).svg" width={8} height={4}/>
                   </div>
                 </div>
                 <ul
@@ -69,7 +69,7 @@ const Index = () => {
                 <div className="flex items-center ">
                   <a onClick={() => setIsList2(!isList2)} className="font-bold text-base leading-4 font-['Poppins'] pr-2 text-gray-700">Dining & Kitchen{" "}</a>
                   <div onClick={() => setIsList2(!isList2)} className="pb-1 my-auto">
-                  <Image src="/vector (2).svg" width={8} height={4}/>
+                  <Image src="/Vector (2).svg" width={8} height={4}/>
                   </div>
                 </div>
                 <ul
@@ -89,7 +89,7 @@ const Index = () => {
                 <div className="flex items-center ">
                   <a onClick={() => setIsList3(!isList3)} className="font-bold text-base leading-4 font-['Poppins'] pr-2 text-gray-700">Office</a>
                   <div onClick={() => setIsList3(!isList3)} className="pb-1 my-auto">
-                  <Image src="/vector (2).svg" width={8} height={4}/>
+                  <Image src="/Vector (2).svg" width={8} height={4}/>
                   </div>
                 </div>
                 <ul
@@ -113,7 +113,7 @@ const Index = () => {
                 <div className="flex items-center ">
                   <a onClick={() => setIsList4(!isList4)} className="font-bold text-base leading-4 font-['Poppins'] pr-2 ">Bedroom</a>
                   <div onClick={() => setIsList4(!isList4)} className="pb-1 my-auto">
-                  <Image src="/vector (2).svg" width={8} height={4}/>
+                  <Image src="/Vector (2).svg" width={8} height={4}/>
                   </div>
                 </div>
                 <ul
@@ -132,7 +132,7 @@ const Index = () => {
                 <div className="flex items-center ">
                   <a onClick={() => setIsList(!isList)} className="font-bold text-base leading-4 font-['Poppins'] pr-2 ">Living Room</a>
                   <div onClick={() => setIsList(!isList)} className="pb-1 my-auto">
-                  <Image src="/vector (2).svg" width={8} height={4}/>
+                  <Image src="/Vector (2).svg" width={8} height={4}/>
                   </div>
                 </div>
                 <ul
@@ -151,7 +151,7 @@ const Index = () => {
                 <div className="flex items-center ">
                   <a onClick={() => setIsList2(!isList2)} className="font-bold text-base leading-4 font-['Poppins'] pr-2 ">Dining & Kitchen{" "}</a>
                   <div onClick={() => setIsList2(!isList2)} className="pb-1 my-auto">
-                  <Image src="/vector (2).svg" width={8} height={4}/>
+                  <Image src="/Vector (2).svg" width={8} height={4}/>
                   </div>
                 </div>
                 <ul
