@@ -16,7 +16,7 @@ const Index = () => {
   const [hide5, setHide5] = useState(false);
   const [hide6, setHide6] = useState(false);
   return (
-    <div className="justify-center 3xl:container mx-auto onclick">
+    <div className="justify-center 3xl:container pt-3 mx-auto onclick">
         <div className="  ">
           <div className="flex flex-wrap cursor-pointer justify-between items-center px-20">
           <Image src="/Group.svg" width={56} height={73} className="my-auto"/>
@@ -28,9 +28,9 @@ const Index = () => {
             <ul className="xl:flex hidden justify-between">
               <li className="pr-20  cursor-pointer relative">
                 <div className="flex items-center ">
-                  <a className="font-bold text-base leading-4 font-['Poppins'] pr-2 text-gray-700 ">Bedroom</a>
-                  <div onClick={() => setIsList4(!isList4)} className="pb-1 my-auto">
-                  <Image src="/vector.svg" width={8} height={4}/>
+                  <a  onClick={() => setIsList4(!isList4)} className="font-bold text-base leading-4 font-['Poppins'] pr-2 text-gray-700 ">Bedroom</a>
+                  <div  onClick={() => setIsList4(!isList4)} className="pb-1 my-auto">
+                  <Image src="/vector (2).svg" width={8} height={4}/>
                   </div>
                 </div>
                 <ul
@@ -48,9 +48,9 @@ const Index = () => {
       
         <li className="pr-16 pl-2 cursor-pointer relative ">
                 <div className="flex items-center ">
-                  <a className="font-bold text-base leading-4 font-['Poppins'] pr-2 text-gray-700">Living Room</a>
+                  <a  onClick={() => setIsList(!isList)} className="font-bold text-base leading-4 font-['Poppins'] pr-2 text-gray-700">Living Room</a>
                   <div onClick={() => setIsList(!isList)} className="pb-1 my-auto">
-                  <Image src="/vector.svg" width={8} height={4}/>
+                  <Image src="/vector (2).svg" width={8} height={4}/>
                   </div>
                 </div>
                 <ul
@@ -67,9 +67,9 @@ const Index = () => {
               </li>
               <li className="pr-8 cursor-pointer relative">
                 <div className="flex items-center ">
-                  <a className="font-bold text-base leading-4 font-['Poppins'] pr-2 text-gray-700">Dining & Kitchen{" "}</a>
+                  <a onClick={() => setIsList2(!isList2)} className="font-bold text-base leading-4 font-['Poppins'] pr-2 text-gray-700">Dining & Kitchen{" "}</a>
                   <div onClick={() => setIsList2(!isList2)} className="pb-1 my-auto">
-                  <Image src="/vector.svg" width={8} height={4}/>
+                  <Image src="/vector (2).svg" width={8} height={4}/>
                   </div>
                 </div>
                 <ul
@@ -87,9 +87,9 @@ const Index = () => {
 
               <li className="pr-8  cursor-pointer relative">
                 <div className="flex items-center ">
-                  <a className="font-bold text-base leading-4 font-['Poppins'] pr-2 text-gray-700">Office</a>
+                  <a onClick={() => setIsList3(!isList3)} className="font-bold text-base leading-4 font-['Poppins'] pr-2 text-gray-700">Office</a>
                   <div onClick={() => setIsList3(!isList3)} className="pb-1 my-auto">
-                  <Image src="/vector.svg" width={8} height={4}/>
+                  <Image src="/vector (2).svg" width={8} height={4}/>
                   </div>
                 </div>
                 <ul
@@ -111,9 +111,9 @@ const Index = () => {
               } flex-col w-full px-10 bg-blue-100 rounded-xl my-6  `}>
               <li className="pr-8 cursor-pointer relative pb-4 pt-8">
                 <div className="flex items-center ">
-                  <a className="font-bold text-base leading-4 font-['Poppins'] pr-2 ">Bedroom</a>
+                  <a onClick={() => setIsList4(!isList4)} className="font-bold text-base leading-4 font-['Poppins'] pr-2 ">Bedroom</a>
                   <div onClick={() => setIsList4(!isList4)} className="pb-1 my-auto">
-                  <Image src="/vector.svg" width={8} height={4}/>
+                  <Image src="/vector (2).svg" width={8} height={4}/>
                   </div>
                 </div>
                 <ul
@@ -130,9 +130,9 @@ const Index = () => {
               </li>
               <li className="pr-8  cursor-pointer relative ">
                 <div className="flex items-center ">
-                  <a className="font-bold text-base leading-4 font-['Poppins'] pr-2 ">Living Room</a>
+                  <a onClick={() => setIsList(!isList)} className="font-bold text-base leading-4 font-['Poppins'] pr-2 ">Living Room</a>
                   <div onClick={() => setIsList(!isList)} className="pb-1 my-auto">
-                  <Image src="/vector.svg" width={8} height={4}/>
+                  <Image src="/vector (2).svg" width={8} height={4}/>
                   </div>
                 </div>
                 <ul
@@ -149,9 +149,9 @@ const Index = () => {
               </li>
               <li className="pr-8 cursor-pointer relative py-4">
                 <div className="flex items-center ">
-                  <a className="font-bold text-base leading-4 font-['Poppins'] pr-2 ">Dining & Kitchen{" "}</a>
+                  <a onClick={() => setIsList2(!isList2)} className="font-bold text-base leading-4 font-['Poppins'] pr-2 ">Dining & Kitchen{" "}</a>
                   <div onClick={() => setIsList2(!isList2)} className="pb-1 my-auto">
-                  <Image src="/vector.svg" width={8} height={4}/>
+                  <Image src="/vector (2).svg" width={8} height={4}/>
                   </div>
                 </div>
                 <ul
@@ -169,9 +169,9 @@ const Index = () => {
 
               <li className="pr-8 cursor-pointer relative pb-8">
                 <div className="flex items-center ">
-                  <a className="font-bold text-base leading-4 font-['Poppins'] pr-2 ">Office</a>
+                  <a onClick={() => setIsList3(!isList3)} className="font-bold text-base leading-4 font-['Poppins'] pr-2 ">Office</a>
                   <div onClick={() => setIsList3(!isList3)} className="pb-1 my-auto">
-                  <Image src="/vector.svg" width={8} height={4}/>
+                  <Image src="/vector (2).svg" width={8} height={4}/>
                   </div>
                 </div>
                 <ul
@@ -188,11 +188,12 @@ const Index = () => {
               </li>
             </ul>
 
-            <div className="xl:flex hidden">
-              <div><a href="https://www.youtube.com/"><Image src="/Group 6.svg" width={20} height={20}/></a></div>
+            <div className="xl:flex md:flex  hidden">
+            <input className="px-8 py-3 -mt-2 m-4 rounded-xl border text-base pb-4" type="tel" id="phone" name="phone" placeholder="Email Here" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></input>
+              <div className="py-3"><Image src="/Group 6.svg" width={20} height={20}/></div>
               <div className="flex pl-8">
-                <div className="cursor-pointer">
-                <Image src="/Group 260.svg" width={20} height={20}/>
+                <div className="cursor-pointer py-3">
+                <Image onClick={() => setHide1(true)} src="/Group 260.svg" width={20} height={20}/>
                 </div>
                 <div>
                   <p id="count" className="text-gray-800 cursor-pointer  leading-none -mt-2 ml-1" >
@@ -249,7 +250,7 @@ const Index = () => {
                   </p>
                   <div className="flex flex-col gap-y-4 }">
                     <Image src="/Vectorup.png" width={12} height={7} className="rounded-xl" onClick={() => setCount1(count1 + 1)}/>
-                    <Image src="/Vectordown.png" width={12} height={7} className="rounded-xl mt-4" onClick={() => setCount1(count1 - 1)}/>
+                    <Image src="/Vectordown.png" width={12} height={7} className="rounded-xl mt-4" />
                   </div>
                 </div>
                 <button className=" py-5 px-6 text-white bg-gray-800 rounded-xl hover:bg-gray-600 text-2xl font--medium">Add to Cart</button>
@@ -268,7 +269,7 @@ const Index = () => {
       <div className=" py-20">
         <h1 className="text-6xl font-bold text-gray-900 px-20 w-8/12">The Glory Cambalk Furniture</h1>
         <h3 className="text-base text-gray-700 py-5 px-20 w-8/12">Avoid the hassle of physically visiting a store and order your favorite product with a few clicks online for the best wood furniture design. Free delivery is available.</h3>
-        <a href="https://www.bing.com/images/search?q=glory+combat+furniture&form=HDRSC2&first=1&tsc=ImageHoverTitle"><button className=" bg-gray-900 text-white rounded-xl py-4 px-7 text-2xl ml-20">Shop Now</button></a>
+        <button className=" bg-gray-900 text-white rounded-xl py-4 px-7 text-2xl ml-20">Shop Now</button>
       </div>
       <div>
         <Image src="/image 5 (1).png" width={549} height={491} className="pb-20 lg:w-6/12 2xl:w-full w-full mx-auto"/>
@@ -422,7 +423,7 @@ const Index = () => {
                 </div>
                 <div className="group height={642} width={325} justify-center relative pb-10 flex">
                   <div className="relative height={642} flex">
-                    <Image src="/Rectangle 18 (1).png" width={425} height={742} className="rounded-xl"/>
+                    <Image src="/Rectangle 18 (1).png" width={325} height={642} className="rounded-xl"/>
                     <div className="absolute top-0 group-hover:bg-black bottom-0 left-0 right-0  w-full h-full  rounded-xl group-hover:opacity-60 "></div>
                   </div>
                   <div className="flex flex-col absolute opacity-0 group-hover:opacity-100  absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -438,7 +439,7 @@ const Index = () => {
                 </div>
                 <div className=" group height={642} width={325} justify-center relative pb-10 flex">
                   <div className="relative height={642} flex">
-                    <Image src="/Rectangle 30 (1).png" width={425} height={337} className="rounded-xl"/>
+                    <Image src="/Rectangle 30 (1).png" width={325} height={237} className="rounded-xl"/>
                     <div className="absolute top-0 group-hover:bg-black bottom-0 left-0 right-0  w-full h-full  rounded-xl group-hover:opacity-60 "></div>
                   </div>
                   <div className="flex flex-col absolute opacity-0 group-hover:opacity-100 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -457,7 +458,7 @@ const Index = () => {
                 </div>
                 <div className=" group height={642} width={325} justify-center relative pb-10 flex">
                   <div className=" relative height={642} flex">
-                    <Image src="/Rectangle 23 (1).png" width={426} height={337} className="rounded-xl"/>
+                    <Image src="/Rectangle 23 (1).png" width={326} height={237} className="rounded-xl"/>
                     <div className="absolute top-0 group-hover:bg-black bottom-0 left-0 right-0  w-full h-full rounded-xl group-hover:opacity-60 "></div>
                   </div>
                   <div className="flex flex-col absolute opacity-0 group-hover:opacity-100 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -473,7 +474,7 @@ const Index = () => {
                 </div>
                 <div className=" group height={642} width={325} justify-center relative pb-10 flex">
                   <div className="relative height={642} flex">
-                    <Image src="/Rectangle 32 (1).png" width={426} height={742} className="rounded-xl"/>
+                    <Image src="/Rectangle 32 (1).png" width={326} height={642} className="rounded-xl"/>
                     <div className="absolute top-0 group-hover:bg-black bottom-0 left-0 right-0  w-full h-full  rounded-xl group-hover:opacity-60 "></div>
                   </div>
                   <div className="flex flex-col absolute opacity-0 group-hover:opacity-100  absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -485,13 +486,13 @@ const Index = () => {
             </div>
             <div>
               <div className="px-10 mb-8 bg-red-50 relative rounded-xl">
-                <div className="">
+                <div className="mb-8">
                 <Image src="/Rectangle 20.svg" width={96} height={96} className="-pt-2"/>
                   <p className="text-xl font-medium absolute top-6 text-gray-800 left-16">Chairs</p>
                 </div>
                 <div className="group height={642} width={325} justify-center relative pb-10 flex">
                   <div className="relative height={642} flex">
-                    <Image src="/Rectangle 31 (2).png" width={425} height={742} className="rounded-xl"/>
+                    <Image src="/Rectangle 31 (2).png" width={325} height={642} className="rounded-xl"/>
                     <div className="absolute top-0 group-hover:bg-black bottom-0 left-0 right-0  w-full h-full  rounded-xl group-hover:opacity-60 "></div>
                   </div>
                   <div className="flex flex-col absolute opacity-0 group-hover:opacity-100  absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -508,7 +509,7 @@ const Index = () => {
                 <div
                   className="group height={642} width={325} justify-center relative pb-10 flex">
                   <div className="relative height={642} flex">
-                    <Image src="/Rectangle 33 (1).png" width={425} height={337} className="rounded-xl"/>
+                    <Image src="/Rectangle 33 (1).png" width={325} height={237} className="rounded-xl"/>
                     <div className="absolute top-0 group-hover:bg-black bottom-0 left-0 right-0  w-full h-full rounded-xl group-hover:opacity-60 "></div>
                   </div>
                   <div className="flex flex-col absolute opacity-0 group-hover:opacity-100  absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -521,17 +522,17 @@ const Index = () => {
           </div>
       <div className=" py-20 px-20 items-center">
       <h1 className="text-4xl text-gray-900 py-10 w-3/5 font-semibold">Top Selling Items</h1>
-      <div className="flex pb-20 justify-between items-center pr-20 lg:flex-row md-flex-col sm:flex-col flex-col sm:px-1 md:px-1 px-1">
+      <div className="flex pb-20 justify-between items-center lg:flex-row md-flex-col sm:flex-col flex-col sm:px-1 md:px-1 px-1">
       <Image src="/Rectangle 13.png" width={624} height={400}/>
-          <div className="flex-col ">
+          <div className="flex-col pr-20 ">
           <h1 className="text-4xl text-gray-900 py-1 w-5/6 font-semibold">Lorem ipsum dolor sit amet</h1>
           <h1 className="text-base text-gray-900 py-1 pb-3 w-4/6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1> 
           <button className="font-['Poppins'] bg-gray-900 text-white text-xl w-40 rounded-md bold py-4 px-5 ">Explore</button>
           </div>
       </div>
 
-      <div className="flex justify-between items-center pr-20 lg:flex-row md-flex-col sm:flex-col flex-col sm:px-1 md:px-1 px-1">
-      <div className="flex-col lg:pl-20 md:pl-1 sm:pl-1">
+      <div className="flex justify-between items-center lg:flex-row md-flex-col sm:flex-col flex-col sm:px-1 md:px-1 px-1">
+      <div className="flex-col pr-20 md:pl-1 sm:pl-1">
           <h1 className="text-4xl text-gray-900 py-1 w-5/6 font-semibold">Lorem ipsum dolor sit amet</h1>
           <h1 className="text-base text-gray-900 py-1 pb-3 w-4/6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1> 
           <button className="font-['Poppins'] bg-gray-900 text-white text-xl rounded-md bold py-4 px-5 w-40">Explore</button>
